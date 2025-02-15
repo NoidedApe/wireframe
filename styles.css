@@ -48,8 +48,8 @@ body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
 
 .dish-card p { font-size: 14px; color: #666; }
 
-.edit-button {
-  display: block;
+.edit-button, .delete-button {
+  display: inline-block;
   margin-top: 10px;
   padding: 5px 10px;
   background: #777;
@@ -58,6 +58,8 @@ body { font-family: Arial, sans-serif; background-color: #f0f0f0; }
   border-radius: 5px;
   cursor: pointer;
 }
+
+.delete-button { background: #a33; margin-left: 10px; }
 
 .dish-detail {
   max-width: 800px;
